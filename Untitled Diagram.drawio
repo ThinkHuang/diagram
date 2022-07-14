@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T07:46:15.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gEd42oBaiIJf0FyM1LFc" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T07:59:45.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9xGH0nwI3SO6yL3yTyQD" version="20.1.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
         <mxCell id="cbWRRwvguoUadpIohgbS-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry x="55" y="2140" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-116" value="token3续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-115" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="cbWRRwvguoUadpIohgbS-116" value="达到续期条件后token3续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-115" parent="7baba1c4bc27f4b0-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="2120" as="sourcePoint" />
             <Array as="points">
@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
-          <mxGeometry x="50" y="725" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="720" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-52" value="&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;subject.login()&lt;/span&gt;&lt;br style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;生成token2&lt;/span&gt;&lt;br style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;subject&amp;lt;--&amp;gt;username&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cbWRRwvguoUadpIohgbS-51" parent="7baba1c4bc27f4b0-3">
           <mxGeometry relative="1" as="geometry">
@@ -218,17 +218,6 @@
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="45" y="2020" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry x="55" y="2060" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-112" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-111" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="2040" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="2040" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="企微" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="2220" as="geometry" />
@@ -370,7 +359,7 @@
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-26" value="保存用户信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;" edge="1" parent="1">
           <mxGeometry x="-0.0243" y="-30" width="80" relative="1" as="geometry">
-            <mxPoint x="819.5" y="850" as="sourcePoint" />
+            <mxPoint x="830" y="850" as="sourcePoint" />
             <mxPoint x="1010" y="850" as="targetPoint" />
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -426,7 +415,7 @@
             <mxPoint x="920" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-74" value="token2续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-73" parent="1">
+        <mxCell id="cbWRRwvguoUadpIohgbS-74" value="达到续期条件token2续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-73" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="1140" as="sourcePoint" />
             <Array as="points">
