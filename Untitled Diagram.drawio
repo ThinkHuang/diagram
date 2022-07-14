@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T07:59:45.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9xGH0nwI3SO6yL3yTyQD" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:33:53.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_nSzJZpXGCugPibUKCsM" version="20.1.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-82" value="生成token3" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-81" parent="7baba1c4bc27f4b0-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="1440" as="sourcePoint" />
+            <mxPoint x="50" y="1440" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="80" y="1440" />
             </Array>
@@ -71,11 +71,12 @@
         <mxCell id="cbWRRwvguoUadpIohgbS-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry x="55" y="2140" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-116" value="达到续期条件后token3续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-115" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="cbWRRwvguoUadpIohgbS-116" value="达到续期条件后token3续期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-115" parent="7baba1c4bc27f4b0-2" source="cbWRRwvguoUadpIohgbS-105">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="2120" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="90" y="2120" />
+              <mxPoint x="90" y="2140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -89,7 +90,7 @@
           <mxGeometry x="45" y="360" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
-          <mxGeometry x="50" y="400" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="400" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-50" value="&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;1、完成token1的校验&lt;br&gt;2、&lt;/span&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; text-align: center; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;使用token1完成登录&lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;&lt;br&gt;subject.login()&lt;/span&gt;&lt;br style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;text-align: center; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;subject&amp;lt;--&amp;gt;username&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cbWRRwvguoUadpIohgbS-49" parent="7baba1c4bc27f4b0-3">
           <mxGeometry relative="1" as="geometry">
@@ -149,13 +150,14 @@
           <mxGeometry x="55" y="800" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-28" value="&lt;div&gt;redis.set(PERSIONSER_LOGIN_USER:TEST:username,LoginUserInfoVo)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;redis.set(AUTH_TOKEN:token2,username)&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cbWRRwvguoUadpIohgbS-27" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.2727" y="5" relative="1" as="geometry">
             <mxPoint x="55" y="820" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="55" y="780" />
               <mxPoint x="85" y="780" />
               <mxPoint x="85" y="800" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
@@ -203,21 +205,20 @@
         <mxCell id="cbWRRwvguoUadpIohgbS-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="45" y="1800" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry x="55" y="1840" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cbWRRwvguoUadpIohgbS-99" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;redis.set(PERSIONSER_LOGIN_USER:TEST:username,LoginUserInfoVo)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;redis.set(AUTH_TOKEN:token3,username)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-98" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="1840" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="55" y="1830" />
-              <mxPoint x="85" y="1830" />
-              <mxPoint x="85" y="1860" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cbWRRwvguoUadpIohgbS-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="45" y="2020" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbWRRwvguoUadpIohgbS-118" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#33001A;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="55" y="1840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cbWRRwvguoUadpIohgbS-119" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;redis.set(PERSIONSER_LOGIN_USER:TEST:username,LoginUserInfoVo)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;redis.set(AUTH_TOKEN:token3,username)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#33001A;" edge="1" target="cbWRRwvguoUadpIohgbS-118" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry y="5" relative="1" as="geometry">
+            <mxPoint x="55" y="1830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1830" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="企微" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="2220" as="geometry" />
