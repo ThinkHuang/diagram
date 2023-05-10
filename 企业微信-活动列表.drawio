@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T02:13:47.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UYoN7jDnHtII06rCJOqV" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T02:16:19.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6NaNrXF_lBowWnhn5RCf" version="21.2.9" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -70,13 +70,13 @@
         <mxCell id="KRW5WzVnKZkYhWClLN9M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-17" target="KRW5WzVnKZkYhWClLN9M-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KRW5WzVnKZkYhWClLN9M-23" value="微信侧" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+        <mxCell id="KRW5WzVnKZkYhWClLN9M-23" value="微信侧" style="swimlane;html=1;startSize=20;dashed=1;dashPattern=8 8;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="630" y="20" width="160" height="770" as="geometry" />
         </mxCell>
         <mxCell id="KRW5WzVnKZkYhWClLN9M-30" value="消息卡片展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KRW5WzVnKZkYhWClLN9M-23">
           <mxGeometry x="20" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KRW5WzVnKZkYhWClLN9M-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=default;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-25" target="KRW5WzVnKZkYhWClLN9M-28">
+        <mxCell id="KRW5WzVnKZkYhWClLN9M-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=default;dashed=1;dashPattern=12 12;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-25" target="KRW5WzVnKZkYhWClLN9M-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KRW5WzVnKZkYhWClLN9M-34" value="携带微信用户侧信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KRW5WzVnKZkYhWClLN9M-29">
@@ -87,7 +87,7 @@
         <mxCell id="KRW5WzVnKZkYhWClLN9M-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-28" target="KRW5WzVnKZkYhWClLN9M-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KRW5WzVnKZkYhWClLN9M-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-28" target="KRW5WzVnKZkYhWClLN9M-30">
+        <mxCell id="KRW5WzVnKZkYhWClLN9M-35" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;rounded=0;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-28" target="KRW5WzVnKZkYhWClLN9M-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KRW5WzVnKZkYhWClLN9M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="KRW5WzVnKZkYhWClLN9M-39" target="KRW5WzVnKZkYhWClLN9M-38">
